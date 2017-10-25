@@ -1,0 +1,22 @@
+<%
+hf = "!" * 80
+tempstr = "HOSTNAME is" + " " + @fqdn
+body1 = tempstr.center(78).center(80, "!")
+tempstr = "OS is" + " " + @operatingsystem 
+body2 = tempstr.center(78).center(80, "!")
+tempstr = "VERSION is" + " " + @operatingsystemrelease 
+body3 = tempstr.center(78).center(80, "!")
+tempstr = "ENVIRONMEMT is" + " " + @environment
+body4 = tempstr.center(78).center(80, "!")
+blankline = "!" + " " * 78 + "!"
+-%>
+<%= hf %>
+<%= hf %>
+<%= blankline %>
+<%= body1 %>
+<%= body2 %>
+<%= body3 %>
+<%= body4 %>
+<%= blankline %>
+<%= hf %>
+<%= hf %>

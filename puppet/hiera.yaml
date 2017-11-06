@@ -9,4 +9,4 @@
   - common
 
 :yaml:
-:datadir: '/etc/puppet/hieradata/'
+   :datadir: '/etc/puppet/hieradata/'

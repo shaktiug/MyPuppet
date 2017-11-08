@@ -8,5 +8,6 @@ ensure => true,
 hasstatus => true,
 hasrestart => true,
 enable => true,
+require => Package["$syslogpkg"],
 }
 }
